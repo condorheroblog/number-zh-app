@@ -15,32 +15,22 @@ const { t } = useI18n()
 </script>
 
 <template>
+  <TheInput
+    v-model="name"
+    :placeholder="t('intro.whats-your-name')"
+    autocomplete="false"
+    @keydown.enter="go"
+  />
+  <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
+
   <div>
-    <div text-4xl>
-      <a rel="noreferrer" href="https://github.com/condorheroblog/number-zh" target="_blank">
-        <img src="/favicon.svg" inline-block>
-      </a>
-    </div>
-
-    <div py-4 />
-
-    <TheInput
-      v-model="name"
-      :placeholder="t('intro.whats-your-name')"
-      autocomplete="false"
-      @keydown.enter="go"
-    />
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
-
-    <div>
-      <button
-        m-3 text-sm btn
-        :disabled="!name"
-        @click="go"
-      >
-        {{ t('button.go') }}
-      </button>
-    </div>
+    <button
+      m-3 text-sm btn
+      :disabled="!name"
+      @click="go"
+    >
+      {{ t('button.go') }}
+    </button>
   </div>
 </template>
 

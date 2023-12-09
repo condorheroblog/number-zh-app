@@ -1,3 +1,6 @@
+import { presetAnu } from 'anu-vue'
+import { presetThemeDefault } from '@anu-vue/preset-theme-default'
+
 import {
   defineConfig,
   presetAttributify,
@@ -28,10 +31,20 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
+    // anu-vue preset
+    presetAnu(),
+
+    // default theme preset
+    presetThemeDefault(),
   ],
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),
   ],
+  content: {
+    pipeline: {
+      include: [/.*\/anu-vue\.js(.*)?$/, './**/*.vue', './**/*.md'],
+    },
+  },
   safelist: 'prose m-auto text-left'.split(' '),
 })

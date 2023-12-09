@@ -1,12 +1,14 @@
 <template>
   <main
-    px-4 py-10
+
+    h-screen flex flex-col
     text="center gray-700 dark:gray-200"
   >
-    <RouterView />
-    <TheFooter />
-    <div mx-auto mt-5 text-center text-sm opacity-50>
-      [Home Layout]
+    <TheHeader />
+    <div flex="~" flex-col items-center justify-center>
+      <TheNav />
+      <RouterView />
     </div>
+    <TheFooter />
   </main>
 </template>
