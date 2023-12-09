@@ -17,16 +17,10 @@ const { t } = useI18n()
 <template>
   <div>
     <div text-4xl>
-      <img src="/favicon.svg" inline-block>
-    </div>
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Number-Zh
+      <a rel="noreferrer" href="https://github.com/condorheroblog/number-zh" target="_blank">
+        <img src="/favicon.svg" inline-block>
       </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
+    </div>
 
     <div py-4 />
 

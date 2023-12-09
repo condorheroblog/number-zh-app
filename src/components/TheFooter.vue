@@ -13,7 +13,7 @@ async function toggleLocales() {
 </script>
 
 <template>
-  <nav flex="~ gap-4" mt-6 justify-center text-xl>
+  <nav flex="~ gap-4" mt-6 items-center justify-center text-xl>
     <RouterLink icon-btn to="/" :title="t('button.home')">
       <div i-carbon-campsite />
     </RouterLink>
@@ -30,8 +30,8 @@ async function toggleLocales() {
       <div i-carbon-dicom-overlay />
     </RouterLink>
 
-    <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
+    <a rel="noreferrer" href="https://github.com/condorheroblog/number-zh" target="_blank" title="GitHub" flex="~ gap-1" items-center op50 hover:op80>
+      <div i-carbon-logo-github /> Source Code
     </a>
   </nav>
 </template>
