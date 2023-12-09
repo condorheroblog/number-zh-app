@@ -1,6 +1,5 @@
 <template>
   <main
-
     h-screen flex flex-col
     text="center gray-700 dark:gray-200"
   >

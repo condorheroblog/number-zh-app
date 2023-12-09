@@ -14,7 +14,7 @@ async function toggleLocales() {
 
 <template>
   <header flex="~" mb-6 items-center justify-between border-b border-slate-200 p-4 dark:border-gray-700>
-    <h1 w-8>
+    <h1 w-8 title="Number ZH">
       <a rel="noreferrer" href="https://github.com/condorheroblog/number-zh" target="_blank">
         <img src="/favicon.svg" inline-block>
       </a>

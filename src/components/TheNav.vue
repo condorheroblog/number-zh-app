@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { RouteRecordName } from 'vue-router'
+
 const { t } = useI18n()
 const router = useRouter()
 const route = useRoute()
@@ -7,31 +9,32 @@ function go(target: string) {
     router.push(target)
 }
 
-const routerPathList = [
-  'number-to-zh',
-  'zh-to-number',
-  'number-to-currency',
-  'currency-to-number',
-]
-
-const currentPath = routerPathList.find(path => path === route.fullPath) ?? routerPathList[0]
+function customClasses(path: string, routeName: RouteRecordName | null | undefined) {
+  if (routeName === path) {
+    return {
+      'border': true,
+      'border-sky-500': true,
+    }
+  }
+  return []
+}
 </script>
 
 <template>
   <div class="mb-4 flex gap-1" border="~ rounded gray-200 dark:gray-700" md:mb-3>
-    <ABtn variant="text" :class="{ 'border-sky-500': currentPath.endsWith('number-to-zh') }" border text-slate-400 @click="() => go('number-to-zh')">
+    <ABtn variant="text" class="text-xs text-slate-400" :class="customClasses('number-to-zh', route.name)" md:text-sm @click="() => go('number-to-zh')">
       {{ t("number-to-zh") }}
     </ABtn>
 
-    <ABtn variant="text" class="text-slate-400" @click="() => go('zh-to-number')">
+    <ABtn variant="text" class="text-xs text-slate-400" :class="customClasses('zh-to-number', route.name)" md:text-sm @click="() => go('zh-to-number')">
       {{ t("zh-to-number") }}
     </ABtn>
 
-    <ABtn variant="text" class="text-slate-400" @click="() => go('number-to-currency')">
+    <ABtn variant="text" class="text-xs text-slate-400" :class="customClasses('number-to-currency', route.name)" md:text-sm @click="() => go('number-to-currency')">
       {{ t("number-to-currency") }}
     </ABtn>
 
-    <ABtn variant="text" class="text-slate-400" @click="() => go('currency-to-number')">
+    <ABtn variant="text" class="text-xs text-slate-400" :class="customClasses('currency-to-number', route.name)" md:text-sm @click="() => go('currency-to-number')">
       {{ t("currency-to-number") }}
     </ABtn>
   </div>
