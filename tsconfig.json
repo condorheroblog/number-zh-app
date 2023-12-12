@@ -18,8 +18,7 @@
       "vite-plugin-vue-component-preview/client",
       "vite-plugin-vue-layouts/client",
       "vite-plugin-pwa/client",
-      "unplugin-vue-macros/macros-global",
-      "anu-vue/volar"
+      "unplugin-vue-macros/macros-global"
     ],
     "allowJs": true,
     "strict": true,

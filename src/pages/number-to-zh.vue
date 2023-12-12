@@ -18,14 +18,14 @@ function handleCalculator() {
   <div class="sm:col-span-4" flex="~ items-center justify-center gap-4">
     <label for="input" class="block text-sm text-gray-600 leading-6">Input</label>
     <div class="flex rounded-md shadow-sm ring-1 ring-gray-300 ring-inset sm:max-w-md">
-      <input id="input" v-model="source" w-86 type="number" name="input" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter an Arabic numeral">
+      <input id="input" v-model="source" w-64 md:w-86 type="number" name="input" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter an Arabic numeral">
     </div>
   </div>
   <div mt-6 />
   <div class="sm:col-span-4" flex="~ items-center justify-center gap-4">
     <label for="output" class="block text-sm text-gray-600 leading-6">Output</label>
     <div class="flex rounded-md shadow-sm ring-1 ring-gray-300 ring-inset sm:max-w-md">
-      <input id="output" readonly w-80 :value="zh" type="text" name="output" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
+      <input id="output" readonly w-52 md:w-80 :value="zh" type="text" name="output" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
     </div>
     <div v-if="!copied" i-carbon-copy cursor-copy @click="copy(zh)" />
     <div v-else flex="~ items-center relative">
@@ -36,7 +36,7 @@ function handleCalculator() {
     </div>
   </div>
   <div mt-6 />
-  <button type="button" :disabled="!isNumber(source)" @click="handleCalculator">
+  <button type="button" class="btn" :disabled="!isNumber(source)" @click="handleCalculator">
     转换
   </button>
 </template>

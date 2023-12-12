@@ -13,11 +13,9 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
-    "@anu-vue/preset-theme-default": "^0.15.2",
     "@unocss/reset": "^0.58.0",
     "@vueuse/core": "^10.7.0",
     "@vueuse/head": "^2.0.0",
-    "anu-vue": "^0.15.2",
     "nprogress": "^0.2.0",
     "number-to-zh": "^0.0.1",
     "number-to-zh-currency": "^0.0.1",
