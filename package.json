@@ -13,14 +13,20 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
+    "@anu-vue/preset-theme-default": "^0.15.2",
     "@unocss/reset": "^0.58.0",
     "@vueuse/core": "^10.7.0",
     "@vueuse/head": "^2.0.0",
+    "anu-vue": "^0.15.2",
     "nprogress": "^0.2.0",
+    "number-to-zh": "^0.0.1",
+    "number-to-zh-currency": "^0.0.1",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
     "vue-i18n": "^9.8.0",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "zh-currency-to-number": "^0.0.1",
+    "zh-to-number": "^0.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.3",
