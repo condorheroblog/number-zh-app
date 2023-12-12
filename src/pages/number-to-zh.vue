@@ -6,7 +6,7 @@ const { copy, copied } = useClipboard()
 const source = ref<number>()
 const zh = ref<string | number>('')
 
-function handleCalculator() {
+function handleTransform() {
   const sourceValue = source.value
   if (sourceValue && isNumber(sourceValue))
     zh.value = numberToZh(sourceValue)
@@ -36,7 +36,7 @@ function handleCalculator() {
     </div>
   </div>
   <div mt-6 />
-  <button type="button" class="btn" :disabled="!isNumber(source)" @click="handleCalculator">
+  <button type="button" class="btn" :disabled="!isNumber(source)" @click="handleTransform">
     转换
   </button>
 </template>
