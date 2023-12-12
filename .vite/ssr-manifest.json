@@ -1,0 +1,170 @@
+{
+  "\u0000/home/runner/work/number-zh-app/number-zh-app/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [
+  ],
+  "\u0000commonjsHelpers.js": [
+  ],
+  "\u0000plugin-vue:export-helper": [
+  ],
+  "\u0000vite/modulepreload-polyfill.js": [
+  ],
+  "\u0000vite/preload-helper.js": [
+  ],
+  "\u0000vite:asset:public/favicon.svg": [
+  ],
+  "../../../../../@vite-plugin-pages/generated-pages?id=~pages": [
+  ],
+  "../../../../../@vite-plugin-pages/route-block": [
+  ],
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/number-zh-app/assets/virtual_pwa-register--ZcwnDuf.js"
+  ],
+  "../../../../../@vite-plugin-vue-layouts/generated-layouts": [
+  ],
+  "../../../../../__uno.css": [
+  ],
+  "../../../../../vue-macros/define-models/use-vmodel": [
+  ],
+  "assets/app-!~{001}~.js-unocss-hash.css": [
+  ],
+  "index.html": [
+  ],
+  "locales/en-US.yml": [
+    "/number-zh-app/assets/en-US-8tJWLSib.js"
+  ],
+  "locales/zh-CN.yml": [
+    "/number-zh-app/assets/zh-CN-LWgnvOPm.js"
+  ],
+  "node_modules/.pnpm/@intlify+core-base@9.8.0/node_modules/@intlify/core-base/dist/core-base.mjs": [
+  ],
+  "node_modules/.pnpm/@intlify+message-compiler@9.8.0/node_modules/@intlify/message-compiler/dist/message-compiler.esm-browser.js": [
+  ],
+  "node_modules/.pnpm/@intlify+shared@9.8.0/node_modules/@intlify/shared/dist/shared.mjs": [
+  ],
+  "node_modules/.pnpm/@unhead+dom@1.8.9/node_modules/@unhead/dom/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/@unhead+shared@1.8.9/node_modules/@unhead/shared/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.11/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs": [
+  ],
+  "node_modules/.pnpm/@unhead+vue@1.8.9_vue@3.3.11/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs": [
+  ],
+  "node_modules/.pnpm/@unocss+reset@0.58.0/node_modules/@unocss/reset/tailwind.css": [
+  ],
+  "node_modules/.pnpm/@vue+reactivity@3.3.11/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+  ],
+  "node_modules/.pnpm/@vue+runtime-core@3.3.11/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+  ],
+  "node_modules/.pnpm/@vue+runtime-dom@3.3.11/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+  ],
+  "node_modules/.pnpm/@vue+shared@3.3.11/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+  ],
+  "node_modules/.pnpm/@vueuse+core@10.7.0_vue@3.3.11/node_modules/@vueuse/core/index.mjs": [
+  ],
+  "node_modules/.pnpm/@vueuse+shared@10.7.0_vue@3.3.11/node_modules/@vueuse/shared/index.mjs": [
+  ],
+  "node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
+  ],
+  "node_modules/.pnpm/number-to-zh@0.0.1/node_modules/number-to-zh/dist/index.mjs": [
+    "/number-zh-app/assets/number-to-zh-cD5vKGbZ.js"
+  ],
+  "node_modules/.pnpm/pinia@2.1.7_typescript@5.3.3_vue@3.3.11/node_modules/pinia/dist/pinia.mjs": [
+  ],
+  "node_modules/.pnpm/unhead@1.8.9/node_modules/unhead/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/vite-ssg@0.23.5_vite@5.0.7_vue-router@4.2.5_vue@3.3.11/node_modules/vite-ssg/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/vite-ssg@0.23.5_vite@5.0.7_vue-router@4.2.5_vue@3.3.11/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
+  ],
+  "node_modules/.pnpm/vite-ssg@0.23.5_vite@5.0.7_vue-router@4.2.5_vue@3.3.11/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
+  ],
+  "node_modules/.pnpm/vue-demi@0.14.6_vue@3.3.11/node_modules/vue-demi/lib/index.mjs": [
+  ],
+  "node_modules/.pnpm/vue-i18n@9.8.0_vue@3.3.11/node_modules/vue-i18n/dist/vue-i18n.runtime.mjs": [
+  ],
+  "node_modules/.pnpm/vue-router@4.2.5_vue@3.3.11/node_modules/vue-router/dist/vue-router.mjs": [
+  ],
+  "node_modules/.pnpm/workbox-window@7.0.0/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/number-zh-app/assets/workbox-window.prod.es5-prqDwDSL.js"
+  ],
+  "node_modules/.pnpm/zh-to-number@0.0.1/node_modules/zh-to-number/dist/index.mjs": [
+    "/number-zh-app/assets/zh-to-number-6d-G6mjK.js"
+  ],
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [
+  ],
+  "src/components/TheFooter.vue": [
+  ],
+  "src/components/TheHeader.vue?vue&type=script&setup=true&lang.ts": [
+  ],
+  "src/components/TheInput.vue?vue&type=script&setup=true&lang.ts": [
+  ],
+  "src/components/TheNav.vue?vue&type=script&setup=true&lang.ts": [
+  ],
+  "src/composables/dark.ts": [
+  ],
+  "src/layouts/404.vue": [
+    "/number-zh-app/assets/404-AT3dflgC.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/number-zh-app/assets/404-AT3dflgC.js"
+  ],
+  "src/layouts/default.vue": [
+  ],
+  "src/layouts/home.vue": [
+    "/number-zh-app/assets/home-zuwVoWn6.js"
+  ],
+  "src/main.ts": [
+  ],
+  "src/modules/i18n.ts": [
+  ],
+  "src/modules/nprogress.ts": [
+  ],
+  "src/modules/pinia.ts": [
+  ],
+  "src/modules/pwa.ts": [
+  ],
+  "src/modules/router.ts": [
+  ],
+  "src/pages/[...all].vue": [
+    "/number-zh-app/assets/_...all_-2D-lh2zl.js"
+  ],
+  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
+    "/number-zh-app/assets/_...all_-2D-lh2zl.js"
+  ],
+  "src/pages/currency-to-number.vue": [
+    "/number-zh-app/assets/currency-to-number-oZS6dsbc.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/number-zh-app/assets/_name_-m2RKX_jv.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/number-zh-app/assets/_name_-m2RKX_jv.js"
+  ],
+  "src/pages/index.vue": [
+  ],
+  "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [
+  ],
+  "src/pages/number-to-currency.vue": [
+    "/number-zh-app/assets/number-to-currency-TI1K_ngK.js"
+  ],
+  "src/pages/number-to-zh.vue": [
+    "/number-zh-app/assets/number-to-zh-cD5vKGbZ.js"
+  ],
+  "src/pages/number-to-zh.vue?vue&type=script&setup=true&lang.ts": [
+    "/number-zh-app/assets/number-to-zh-cD5vKGbZ.js"
+  ],
+  "src/pages/zh-to-number.vue": [
+    "/number-zh-app/assets/zh-to-number-6d-G6mjK.js"
+  ],
+  "src/pages/zh-to-number.vue?vue&type=script&setup=true&lang.ts": [
+    "/number-zh-app/assets/zh-to-number-6d-G6mjK.js"
+  ],
+  "src/stores/user.ts": [
+  ],
+  "src/styles/main.css": [
+  ],
+  "src/utils/isNumber.ts": [
+    "/number-zh-app/assets/number-to-zh-cD5vKGbZ.js"
+  ]
+}
