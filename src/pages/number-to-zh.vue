@@ -25,7 +25,7 @@ function handleTransform() {
 </script>
 
 <template>
-  <div class="m-6 flex flex-col gap-6">
+  <div class="my-6 mr-5 flex flex-col gap-6">
     <div class="flex items-center justify-center gap-4">
       <label for="input" class="basis-1/6 text-center text-sm text-gray-600 leading-6">{{ t("input") }}</label>
       <div class="flex flex-1 rounded-md shadow-sm ring-1 ring-gray-300 ring-inset">
