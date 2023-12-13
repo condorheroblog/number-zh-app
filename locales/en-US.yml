@@ -16,3 +16,15 @@ number-to-zh: Number To ZH
 zh-to-number: ZH To Number
 number-to-currency: Number To Currency
 currency-to-number: Currency To Number
+input: Input
+output: Output
+transform: Transform
+language: Language
+zh-CN-lowercase: Simplified Chinese Lowercase
+zh-CN-uppercase: Simplified Chinese Uppercase
+zh-TW-lowercase: Traditional Chinese Lowercase
+zh-TW-uppercase: Traditional Chinese Uppercase
+ten-colloquially: Ten Colloquially
+yes: Yes
+no: No
+repeat-char: Repeat Digits

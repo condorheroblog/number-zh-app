@@ -16,3 +16,15 @@ number-to-zh: 数字转中文
 zh-to-number: 中文转数字
 number-to-currency: 数字转金额
 currency-to-number: 金额转数字
+input: 输入
+output: 输出
+transform: 转换
+language: 语言
+zh-CN-lowercase: 简体中文小写
+zh-CN-uppercase: 简体中文大写
+zh-TW-lowercase: 繁体中文小写
+zh-TW-uppercase: 繁体中文大写
+ten-colloquially: 口语化
+yes: 是
+no: 否
+repeat-char: 重复数位

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { zhToNumber } from 'zh-to-number'
 
+const { t } = useI18n()
 const { copy, copied } = useClipboard()
 const source = ref('')
 const num = ref<string | number>('')
@@ -15,16 +16,16 @@ function handleTransform() {
 <template>
   <div mt-6 />
   <div class="sm:col-span-4" flex="~ items-center justify-center gap-4">
-    <label for="input" class="block text-sm text-gray-600 leading-6">Input</label>
+    <label for="input" class="block text-sm text-gray-600 leading-6">{{ t("input") }}</label>
     <div class="flex rounded-md shadow-sm ring-1 ring-gray-300 ring-inset sm:max-w-md">
       <input id="input" v-model="source" w-64 md:w-86 type="text" name="input" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter a Chinese numeral">
     </div>
   </div>
   <div mt-6 />
   <div class="sm:col-span-4" flex="~ items-center justify-center gap-4">
-    <label for="output" class="block text-sm text-gray-600 leading-6">Output</label>
+    <label for="output" class="block text-sm text-gray-600 leading-6">{{ t("output") }}</label>
     <div class="flex rounded-md shadow-sm ring-1 ring-gray-300 ring-inset sm:max-w-md">
-      <input id="output" readonly w-52 md:w-80 :value="num" type="number" name="output" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
+      <input id="output" readonly w-52 md:w-78 :value="num" type="number" name="output" autocomplete="false" class="block flex-1 border-0 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
     </div>
     <div v-if="!copied" i-carbon-copy cursor-copy @click="copy(num.toString())" />
     <div v-else flex="~ items-center relative">
@@ -36,6 +37,6 @@ function handleTransform() {
   </div>
   <div mt-6 />
   <button type="button" class="btn" :disabled="!source.length" @click="handleTransform">
-    转换
+    {{ t("transform") }}
   </button>
 </template>

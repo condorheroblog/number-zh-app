@@ -23,7 +23,7 @@ function customClasses(path: string, routeName: RouteRecordName | null | undefin
 </script>
 
 <template>
-  <div class="mb-4 flex gap-1" border="~ rounded gray-200 dark:gray-700" md:mb-3>
+  <div class="flex gap-1" border="~ rounded gray-200 dark:gray-700">
     <button :class="customClasses('number-to-zh', route.name)" md:text-base @click="() => go('number-to-zh')">
       {{ t("number-to-zh") }}
     </button>

@@ -15,7 +15,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: () => preferredDark.value ? '/favicon.svg' : '/favicon.svg',
+      href: () => preferredDark.value ? `${import.meta.env.BASE_URL}favicon.svg` : `${import.meta.env.BASE_URL}favicon.svg`,
     },
   ],
 })
