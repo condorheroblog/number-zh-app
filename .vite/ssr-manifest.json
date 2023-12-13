@@ -16,7 +16,7 @@
   "../../../../../@vite-plugin-pages/route-block": [
   ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/number-zh-app/assets/virtual_pwa-register-BbzbtPxa.js"
+    "/number-zh-app/assets/virtual_pwa-register-vhdZB7lz.js"
   ],
   "../../../../../@vite-plugin-vue-layouts/generated-layouts": [
   ],
@@ -67,10 +67,10 @@
   "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
   ],
   "node_modules/.pnpm/number-to-zh-currency@0.0.1/node_modules/number-to-zh-currency/dist/index.mjs": [
-    "/number-zh-app/assets/number-to-currency-EzYxW0eZ.js"
+    "/number-zh-app/assets/number-to-currency-0PFo6o4q.js"
   ],
   "node_modules/.pnpm/number-to-zh@0.0.1/node_modules/number-to-zh/dist/index.mjs": [
-    "/number-zh-app/assets/number-to-zh-pBagoBcM.js"
+    "/number-zh-app/assets/number-to-zh-JK4dKMaj.js"
   ],
   "node_modules/.pnpm/pinia@2.1.7_typescript@5.3.3_vue@3.3.11/node_modules/pinia/dist/pinia.mjs": [
   ],
@@ -92,10 +92,10 @@
     "/number-zh-app/assets/workbox-window.prod.es5-prqDwDSL.js"
   ],
   "node_modules/.pnpm/zh-currency-to-number@0.0.1/node_modules/zh-currency-to-number/dist/index.mjs": [
-    "/number-zh-app/assets/currency-to-number-Ej0bjDaW.js"
+    "/number-zh-app/assets/currency-to-number-esfrS-yv.js"
   ],
   "node_modules/.pnpm/zh-to-number@0.0.1/node_modules/zh-to-number/dist/index.mjs": [
-    "/number-zh-app/assets/zh-to-number-vLWBoPEg.js"
+    "/number-zh-app/assets/zh-to-number-FJIRQcQA.js"
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
   ],
@@ -110,15 +110,15 @@
   "src/composables/dark.ts": [
   ],
   "src/layouts/404.vue": [
-    "/number-zh-app/assets/404-5zOWk3Zl.js"
+    "/number-zh-app/assets/404-FCPDIABx.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/404-5zOWk3Zl.js"
+    "/number-zh-app/assets/404-FCPDIABx.js"
   ],
   "src/layouts/default.vue": [
   ],
   "src/layouts/home.vue": [
-    "/number-zh-app/assets/home-uHB00cQX.js"
+    "/number-zh-app/assets/home-MnSMLmRo.js"
   ],
   "src/main.ts": [
   ],
@@ -132,51 +132,45 @@
   ],
   "src/modules/router.ts": [
   ],
-  "src/pages/[...all].vue": [
-    "/number-zh-app/assets/_...all_-EdeTth6n.js"
-  ],
-  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/_...all_-EdeTth6n.js"
-  ],
   "src/pages/currency-to-number.vue": [
-    "/number-zh-app/assets/currency-to-number-Ej0bjDaW.js"
+    "/number-zh-app/assets/currency-to-number-esfrS-yv.js"
   ],
   "src/pages/currency-to-number.vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/currency-to-number-Ej0bjDaW.js"
+    "/number-zh-app/assets/currency-to-number-esfrS-yv.js"
   ],
   "src/pages/hi/[name].vue": [
-    "/number-zh-app/assets/_name_-kMRI9hiB.js"
+    "/number-zh-app/assets/_name_-HsZwc_NB.js"
   ],
   "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/_name_-kMRI9hiB.js"
+    "/number-zh-app/assets/_name_-HsZwc_NB.js"
   ],
   "src/pages/index.vue": [
   ],
   "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [
   ],
   "src/pages/number-to-currency.vue": [
-    "/number-zh-app/assets/number-to-currency-EzYxW0eZ.js"
+    "/number-zh-app/assets/number-to-currency-0PFo6o4q.js"
   ],
   "src/pages/number-to-currency.vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/number-to-currency-EzYxW0eZ.js"
+    "/number-zh-app/assets/number-to-currency-0PFo6o4q.js"
   ],
   "src/pages/number-to-zh.vue": [
-    "/number-zh-app/assets/number-to-zh-pBagoBcM.js"
+    "/number-zh-app/assets/number-to-zh-JK4dKMaj.js"
   ],
   "src/pages/number-to-zh.vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/number-to-zh-pBagoBcM.js"
+    "/number-zh-app/assets/number-to-zh-JK4dKMaj.js"
   ],
   "src/pages/zh-to-number.vue": [
-    "/number-zh-app/assets/zh-to-number-vLWBoPEg.js"
+    "/number-zh-app/assets/zh-to-number-FJIRQcQA.js"
   ],
   "src/pages/zh-to-number.vue?vue&type=script&setup=true&lang.ts": [
-    "/number-zh-app/assets/zh-to-number-vLWBoPEg.js"
+    "/number-zh-app/assets/zh-to-number-FJIRQcQA.js"
   ],
   "src/stores/user.ts": [
   ],
   "src/styles/main.css": [
   ],
   "src/utils/isNumber.ts": [
-    "/number-zh-app/assets/number-to-zh-pBagoBcM.js"
+    "/number-zh-app/assets/number-to-zh-JK4dKMaj.js"
   ]
 }
