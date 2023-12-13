@@ -24,14 +24,14 @@ function handleTransform() {
 <template>
   <div class="my-6 mr-5 flex flex-col gap-6">
     <div class="flex items-center justify-center gap-4">
-      <label for="input" class="basis-1/6 text-center text-sm text-gray-600 leading-6">{{ t("input") }}</label>
+      <label for="input" class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("input") }}</label>
       <div class="flex flex-1 rounded-md shadow-sm ring-1 ring-gray-300 ring-inset">
-        <input id="input" v-model="source" type="text" name="input" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter a Chinese numeral">
+        <input id="input" v-model="source" type="text" name="input" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter a Chinese numeral">
       </div>
     </div>
 
     <div class="flex items-center justify-center gap-4">
-      <label class="basis-1/6 text-center text-sm text-gray-600 leading-6">{{ t("language") }}</label>
+      <label class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("language") }}</label>
       <div class="flex-1">
         <div class="space-x-4">
           <div class="inline-flex gap-x-2">
@@ -57,7 +57,7 @@ function handleTransform() {
     </div>
 
     <div class="flex items-center justify-center gap-4">
-      <label class="basis-1/6 text-center text-sm text-gray-600 leading-6">{{ t("comma-separator") }}</label>
+      <label class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("comma-separator") }}</label>
       <div class="flex flex-1 items-center gap-4">
         <div class="inline-flex gap-x-2">
           <input id="yes" v-model="thousandsSeparator" :value="true" name="thousandsSeparator" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
@@ -71,10 +71,10 @@ function handleTransform() {
     </div>
 
     <div class="flex items-center justify-center gap-4">
-      <label for="output" class="basis-1/6 text-center text-sm text-gray-600 leading-6">{{ t("output") }}</label>
+      <label for="output" class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("output") }}</label>
       <div class="flex flex-1 items-center">
         <div class="inline-flex flex-1 rounded-md shadow-sm ring-1 ring-gray-300 ring-inset">
-          <input id="output" readonly :value="num" type="text" name="output" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 text-gray-900 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
+          <input id="output" readonly :value="num" type="text" name="output" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
         </div>
         <div v-if="!copied" class="basis-1/6" i-carbon-copy cursor-copy @click="copy(num.toString())" />
         <div v-else class="relative inline-flex basis-1/6 items-center">

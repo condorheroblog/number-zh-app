@@ -33,9 +33,9 @@ async function toggleLocales() {
         <div i-carbon-language />
       </a>
 
-      <RouterLink icon-btn to="/about" :title="t('button.about')" data-test-id="about">
+      <!-- <RouterLink icon-btn to="/about" :title="t('button.about')" data-test-id="about">
         <div i-carbon-dicom-overlay />
-      </RouterLink>
+      </RouterLink> -->
 
       <a rel="noreferrer" href="https://github.com/condorheroblog/number-zh" target="_blank" title="GitHub" flex="~ gap-1" items-center op50 hover:op80>
         <div i-carbon-logo-github />

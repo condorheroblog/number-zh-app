@@ -29,3 +29,5 @@ yes: 是
 no: 否
 repeat-char: 重复数位
 comma-separator: 千分符
+amount-suffix: 正或整
+tenCents-suffix: 角位添加正或整
