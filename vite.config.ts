@@ -71,24 +71,24 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'Number ZH',
+        short_name: 'Number ZH',
         theme_color: '#ffffff',
         icons: [
           {
-            src: '/pwa-192x192.png',
+            src: `/${name}/favicon.svg`,
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/svg+xml',
           },
           {
-            src: '/pwa-512x512.png',
+            src: `/${name}/favicon.svg`,
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/svg+xml',
           },
           {
-            src: '/pwa-512x512.png',
+            src: `/${name}/favicon.svg`,
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/svg+xml',
             purpose: 'any maskable',
           },
         ],
