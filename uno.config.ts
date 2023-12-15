@@ -12,6 +12,7 @@ import {
 export default defineConfig({
   shortcuts: [
     ['btn', 'px-4 py-1 rounded inline-block cursor-pointer border enabled:hover:border-blue-400 enabled:hover:text-blue-400 hover:shadow disabled:cursor-not-allowed disabled:bg-gray-600 disabled:opacity-30'],
+    ['input-radio', 'w-4'],
     ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
   ],
   presets: [

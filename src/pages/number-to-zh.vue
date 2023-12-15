@@ -26,35 +26,35 @@ function handleTransform() {
 
 <template>
   <div class="my-6 mr-5 flex flex-col gap-6">
-    <div class="flex items-center justify-center gap-4">
-      <label for="input" class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("input") }}</label>
+    <label class="flex items-center justify-center gap-4">
+      <span class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("input") }}</span>
       <div class="flex flex-1 rounded-md shadow-sm ring-1 ring-gray-300 ring-inset">
-        <input id="input" v-model="source" type="number" name="input" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" placeholder="Enter an Arabic numeral">
+        <input v-model="source" type="number" name="input" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0" :placeholder="t('enter-an-arabic-numeral')">
       </div>
-    </div>
+    </label>
 
     <div class="flex items-center justify-center gap-4">
       <label class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("language") }}</label>
       <div class="flex-1">
         <div class="space-x-4">
-          <div class="inline-flex gap-x-2">
-            <input id="zh-CN-lowercase" v-model="language" value="zh-CN-lowercase" name="language" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-            <label for="zh-CN-lowercase" class="text-sm">{{ t("zh-CN-lowercase") }}</label>
-          </div>
-          <div class="inline-flex gap-x-2">
-            <input id="zh-CN-uppercase" v-model="language" value="zh-CN-uppercase" name="language" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-            <label for="zh-CN-uppercase" class="text-sm">{{ t("zh-CN-uppercase") }}</label>
-          </div>
+          <label class="inline-flex gap-x-2">
+            <input v-model="language" value="zh-CN-lowercase" name="language" type="radio" class="input-radio">
+            <span class="text-sm">{{ t("zh-CN-lowercase") }}</span>
+          </label>
+          <label class="inline-flex gap-x-2">
+            <input v-model="language" value="zh-CN-uppercase" name="language" type="radio" class="input-radio">
+            <span class="text-sm">{{ t("zh-CN-uppercase") }}</span>
+          </label>
         </div>
         <div class="space-x-4">
-          <div class="inline-flex gap-x-2">
-            <input id="zh-TW-lowercase" v-model="language" value="zh-TW-lowercase" name="language" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-            <label for="zh-TW-lowercase" class="text-sm">{{ t("zh-TW-lowercase") }}</label>
-          </div>
-          <div class="inline-flex gap-x-2">
-            <input id="zh-TW-uppercase" v-model="language" value="zh-TW-uppercase" name="language" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-            <label for="zh-TW-uppercase" class="text-sm">{{ t("zh-TW-uppercase") }}</label>
-          </div>
+          <label class="inline-flex gap-x-2">
+            <input v-model="language" value="zh-TW-lowercase" name="language" type="radio" class="input-radio">
+            <span class="text-sm">{{ t("zh-TW-lowercase") }}</span>
+          </label>
+          <label class="inline-flex gap-x-2">
+            <input v-model="language" value="zh-TW-uppercase" name="language" type="radio" class="input-radio">
+            <span class="text-sm">{{ t("zh-TW-uppercase") }}</span>
+          </label>
         </div>
       </div>
     </div>
@@ -62,40 +62,40 @@ function handleTransform() {
     <div class="flex items-center justify-center gap-4">
       <label class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("ten-colloquially") }}</label>
       <div class="flex flex-1 items-center gap-4">
-        <div class="inline-flex gap-x-2">
-          <input id="yes" v-model="skipOneBeforeTen" :value="true" name="skipOneBeforeTen" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-          <label for="yes" class="text-sm">{{ t("yes") }}</label>
-        </div>
-        <div class="inline-flex gap-x-2">
-          <input id="no" v-model="skipOneBeforeTen" :value="false" name="skipOneBeforeTen" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-          <label for="no" class="text-sm">{{ t("no") }}</label>
-        </div>
+        <label class="inline-flex gap-x-2">
+          <input v-model="skipOneBeforeTen" :value="true" name="skipOneBeforeTen" type="radio" class="input-radio">
+          <span class="text-sm">{{ t("yes") }}</span>
+        </label>
+        <label class="inline-flex gap-x-2">
+          <input v-model="skipOneBeforeTen" :value="false" name="skipOneBeforeTen" type="radio" class="input-radio">
+          <span class="text-sm">{{ t("no") }}</span>
+        </label>
       </div>
     </div>
 
     <div class="flex items-center justify-center gap-4">
       <label class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("repeat-char") }}</label>
       <div class="flex flex-1 items-center gap-4">
-        <div class="inline-flex gap-x-2">
-          <input id="WW" v-model="repeatChar" value="WW" name="repeat-char" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-          <label for="WW" class="text-sm"> 万万 </label>
-        </div>
-        <div class="inline-flex gap-x-2">
-          <input id="YY" v-model="repeatChar" value="YY" name="repeat-char" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-          <label for="YY" class="text-sm"> 亿亿 </label>
-        </div>
-        <div class="inline-flex gap-x-2">
-          <input id="repeat-char-false" v-model="repeatChar" :value="false" name="repeat-char" type="radio" class="border-gray-300 text-indigo-600 focus:ring-indigo-600">
-          <label for="repeat-char-false" class="text-sm">{{ t("no") }}</label>
-        </div>
+        <label class="inline-flex gap-x-2">
+          <input v-model="repeatChar" value="WW" name="repeat-char" type="radio" class="input-radio">
+          <span class="text-sm"> 万万 </span>
+        </label>
+        <label class="inline-flex gap-x-2">
+          <input v-model="repeatChar" value="YY" name="repeat-char" type="radio" class="input-radio">
+          <span class="text-sm"> 亿亿 </span>
+        </label>
+        <label class="inline-flex gap-x-2">
+          <input v-model="repeatChar" :value="false" name="repeat-char" type="radio" class="input-radio">
+          <span class="text-sm">{{ t("no") }}</span>
+        </label>
       </div>
     </div>
 
-    <div class="flex items-center justify-center gap-4">
-      <label for="output" class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("output") }}</label>
+    <label class="flex items-center justify-center gap-4">
+      <span class="basis-1/6 text-center text-sm text-slate-600 leading-6 dark:text-slate-300">{{ t("output") }}</span>
       <div class="flex flex-1 items-center">
         <div class="inline-flex flex-1 rounded-md shadow-sm ring-1 ring-gray-300 ring-inset">
-          <input id="output" readonly :value="zh" type="text" name="output" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
+          <input readonly :value="zh" type="text" name="output" autocomplete="false" class="flex-1 bg-transparent px-3 py-1.5 sm:text-sm placeholder:text-gray-400 sm:leading-6 focus:ring-0">
         </div>
         <div v-if="!copied" class="basis-1/6" i-carbon-copy cursor-copy @click="copy(zh.toString())" />
         <div v-else class="relative inline-flex basis-1/6 items-center">
@@ -105,7 +105,7 @@ function handleTransform() {
           <span absolute left-8 text-sm>Copied!</span>
         </div>
       </div>
-    </div>
+    </label>
 
     <div class="text-center">
       <button type="button" class="btn" :disabled="!isNumber(source)" @click="handleTransform">

@@ -1,45 +1,27 @@
 # Number ZH App
 
-## Usage
+> 由 [number-zh](https://github.com/condorheroblog/number-zh) 驱动
 
-### Development
+## 使用
 
-Just run and visit http://localhost:3333
+[🔗点击使用](https://condorheroblog.github.io/number-zh-app/number-to-zh)
+
+![number-zh-app-20231215-115800](https://github.com/condorheroblog/number-zh-app/assets/47056890/03dcec77-5c59-4b44-853f-8ce1e3c1f33a)
+
+### 开发
+
+仅需要运行下面命令并查看 `http://localhost:3333`
 
 ```bash
 pnpm dev
 ```
 
-### Build
+### 构建
 
-To build the App, run
+使用下面命令构建一个 App
 
 ```bash
 pnpm build
 ```
 
-And you will see the generated file in `dist` that ready to be served.
-
-### Deploy on Netlify
-
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
-
-### Docker Production Build
-
-First, build the vitesse image by opening the terminal in the project's root directory.
-
-```bash
-docker buildx build . -t vitesse:latest
-```
-
-Run the image and specify port mapping with the `-p` flag.
-
-```bash
-docker run --rm -it -p 8080:80 vitesse:latest
-```
-
-## Why
-
-I have created several Vite apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
-
-So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. It's strongly opinionated, but feel free to tweak it or even maintain your own forks. [(see community maintained variation forks)](#variations)
+您将在 `dist` 中看到生成的文件。

@@ -31,3 +31,7 @@ repeat-char: Repeat Digits
 comma-separator: Comma Separator
 amount-suffix: 正或整
 tenCents-suffix: 角位添加正或整
+enter-an-arabic-numeral: Enter an Arabic numeral
+enter-a-chinese-numeral: Enter a Chinese numeral
+enter-a-numeral: Enter a numeral
+enter-a-currency-numeral: Enter a currency numeral

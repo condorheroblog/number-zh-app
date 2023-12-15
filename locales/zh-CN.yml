@@ -31,3 +31,7 @@ repeat-char: 重复数位
 comma-separator: 千分符
 amount-suffix: 正或整
 tenCents-suffix: 角位添加正或整
+enter-an-arabic-numeral: 请输入一个阿拉伯数字
+enter-a-chinese-numeral: 请输入一个中文数字
+enter-a-numeral: 请输入一个数
+enter-a-currency-numeral: 请输入一个金额
